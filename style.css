@@ -9,13 +9,13 @@ canvas, #shmiga {
     position: absolute;
     left: 0;
     top: 0;
-    z-index: -1;
 }
 
 #shmiga {
     height: 100%;
     width: 100%;
     display: flex;
+    z-index: -1;
 }
 
 #shmiga > h1 {
@@ -23,5 +23,5 @@ canvas, #shmiga {
     font-size: 15vw;
     color: white;
     opacity: 0.8;
-    text-shadow: 6px 6px black;
+    text-shadow: 6px 6px #444444;
 }
